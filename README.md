@@ -20,3 +20,5 @@ Download the dataset from [Kaggle](https://www.kaggle.com/datasets/abhinav099802
 ## Running the notebook
 
 Install the Python dependencies imported by the notebook, place the dataset in the expected location, and run `Eye Disease Workbook.ipynb` from the repository root. A CUDA-capable GPU is optional; the notebook falls back to CPU.
+
+21/09 I noticed all the phtos have the little rectangle in the same place so i tried to run it without random rotations to see if it works better, but it performed worse. I also changed the order of augmentation but it performed worse, hence I have left it as it is.
